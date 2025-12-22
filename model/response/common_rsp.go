@@ -9,9 +9,9 @@ import (
 // 返回前端
 func Response(c *gin.Context, httpStatus int, code int, data gin.H, message string) {
 	c.JSON(httpStatus, gin.H{
-		"code":    code,
-		"data":    data,
-		"message": message,
+		"code": code,
+		"data": data,
+		"msg":  message,
 	})
 }
 
