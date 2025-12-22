@@ -9,11 +9,11 @@ const docTemplate = `{
     "info": {
         "description": "{{escape .Description}}",
         "title": "{{.Title}}",
-        "termsOfService": "https://github.com/eryajf/go-ldap-admin",
+        "termsOfService": "https://www.51zot.com",
         "contact": {
-            "name": "项目作者：二丫讲梵 、 swagger作者：南宫乘风",
-            "url": "https://github.com/eryajf/go-ldap-admin",
-            "email": "https://github.com/eryajf/go-ldap-admin"
+            "name": "项目作者：二丫讲梵 、 swagger作者：南宫乘风、二次开发：杭州洞幺信息技术有限公司",
+            "url": "https://www.51zot.com",
+            "email": "https://www.51zot.com"
         },
         "version": "{{.Version}}"
     },
