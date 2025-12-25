@@ -33,7 +33,7 @@ mysql:
   # 用户名
   username: root
   # 密码
-  password: 123456
+  password: qwe123.0+-
   # 数据库名
   database: go_ldap_admin
   # 主机地址
@@ -54,9 +54,9 @@ mysql:
 # jwt配置
 jwt:
   # jwt标识
-  realm: test jwt
+  realm: zot
   # 服务端密钥
-  key: secret key
+  key: 51zot.com
   # token过期时间, 小时
   timeout: 12000
   # 刷新token最大过期时间, 小时
@@ -72,8 +72,8 @@ rate-limit:
 # email configuration
 email:
   port: '465'
-  user: 'eryajf@163.com'
-  from: 'go-ldap-admin后台'
+  user: 'wsssfun@foxmail.com'
+  from: '最强后台'
   host: 'smtp.163.com'
   # is-ssl: true
   pass: 'your password'
@@ -85,13 +85,13 @@ ldap:
   # ladp最大连接数设置
   max-conn: 10
   # ldap服务器基础DN
-  base-dn: "dc=eryajf,dc=net"
+  base-dn: "dc=wsss,dc=fun"
   # ldap管理员DN
-  admin-dn: "cn=admin,dc=eryajf,dc=net"
+  admin-dn: "cn=admin,dc=wsss,dc=fun"
   # ldap管理员密码
   admin-pass: "123456"
   # ldap用户OU
-  user-dn: "ou=people,dc=eryajf,dc=net"
+  user-dn: "ou=people,dc=wsss,dc=fun"
   # ldap用户初始默认密码
   user-init-password: "123456"
   # 是否允许更改分组DN
@@ -101,7 +101,7 @@ ldap:
   # 用户密码加密方式 默认为 ssha 还可指定为 clear(表示不加密)
   user-password-encryption-type: "ssha"
   # 默认邮箱后缀
-  default-email-suffix: "eryajf.net"
+  default-email-suffix: "wsss.fun"
 # 📢 即便用不到如下三段配置信息，也不要删除，否则会有一些奇怪的错误出现
 dingtalk:
   # 配置获取详细文档参考： http://ldapdoc.eryajf.net/pages/94f43a/
